@@ -20,8 +20,6 @@ public class MenuItem {
         this.isNew = isNew;
     }
 
-    //methods
-
 
     //getters & setters
 

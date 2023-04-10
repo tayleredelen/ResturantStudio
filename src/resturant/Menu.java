@@ -21,6 +21,10 @@ public class Menu {
 
     public void setLastUpdated(Date lastUpdated) { this.lastUpdated = lastUpdated; }
 
+
+
+
+
     //other methods
     public void addMenuItem(MenuItem item) {
         //add to list of menu items
@@ -28,6 +32,11 @@ public class Menu {
         //update lastUpdated
         this.lastUpdated = new Date(); //using new Date sets whatever time/date it is at moment
     }
+
+
+
+
+
 
     public void removeMenuItem(MenuItem item) {
         //remove the item from the list
